@@ -1,0 +1,108 @@
+/* Navbar styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  background-color: #333;
+  color: #fff;
+}
+  
+.logo {
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: #fff;
+}
+
+.logo-icon {
+  margin-right: 10px;
+}
+  
+.logo-link {
+  text-decoration: none; 
+  color: inherit;          
+  margin: 0;              
+  padding: 0;              
+  border: none;            
+  font-size: inherit;      
+  font-family: inherit;    
+  background: none;       
+  cursor: pointer;         
+}
+
+.search-box {
+  flex-grow: 1;
+  margin: 0 20px;
+}
+  
+.search-input {
+  width: 100%;
+  padding: 8px;
+  font-size: 1rem;
+}
+   
+.button {
+  padding: 10px 15px;
+  margin-left: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Signin and Order btns */
+.nav-btn {
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid transparent;
+}
+  
+.button.nav-btn {
+  text-decoration: none; 
+  color: inherit;
+  display: inline-block;
+}
+
+.cart-btn {
+  background-color:lightcyan   ;
+  text-decoration: none;
+  color: black;
+}
+
+.cart-btn:hover {
+  background-color: skyblue; 
+}
+  
+.nav-btn:hover {
+  border: 1px solid #fff;
+}
+
+/* bottom navbar */
+.genres-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  background-color: #777; 
+  color: #fff;
+}
+  
+.genres {
+  display: flex;
+  gap: 10px;
+}
+  
+.genre-btn {
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid transparent;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+  
+.genre-btn:hover {
+  border: 1px solid #fff;
+}
+  
+

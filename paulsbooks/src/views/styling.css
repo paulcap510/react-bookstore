@@ -1,0 +1,62 @@
+.container, .orders-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+    background-color: #eee;
+}
+
+.signin-form {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.signin-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 1rem;
+    color: #666;
+}
+
+.signin-form input[type="text"],
+.signin-form input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.signin-form button {
+    width: 100%;
+    background-color: rgb(255, 200, 0);
+    padding: 10px;
+    margin-top: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+.signin-form button:hover {
+    background-color: orange;
+}
+
+.signin-form p {
+    text-align: center;
+    font-size: 1rem;
+    margin-top: 20px;
+}
+
+
+/* Orders */
+.orders-container {
+    flex-direction: column;
+}
+
+.orders-section {
+    margin-top: 20px;
+}

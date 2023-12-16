@@ -1,0 +1,34 @@
+[
+    {
+        "id": 1,
+        "title": "You Have a Brain",
+        "author": "Ben Carson",
+        "genre": "Biography",
+        "isbn": "978-0-310-33783-2",
+        "publication_year": 2015,
+        "publisher": "Zondervan",
+        "description": "A deep dive into the life of renowned neurosurgeon Ben Carson, detailing his journey from a struggling student to a medical pioneer.",
+        "cover_image": "/images/book1.jpg"
+    },
+    {
+        "id": 2,
+        "title": "You Like it Darker",
+        "author": "Stephen King",
+        "genre": "Horror",
+        "isbn": "978-1-5011-1082-9",
+        "publication_year": 2021,
+        "publisher": "Scribner",
+        "description": "A chilling collection of short stories that explore the darker sides of human nature, crafted by the master of horror, Stephen King.",
+        "cover_image": "/images/book2.jpg"
+    },
+    {
+        "title": "It Found Us",
+        "author": "Lindsay Currie",
+        "genre": "Young Adult Fiction",
+        "isbn": "978-1-72820-697-4",
+        "publication_year": 2023,
+        "publisher": "Sourcebooks Fire",
+        "description": "A gripping tale of mystery and suspense, following a group of friends who encounter a haunting presence in their small town.",
+        "cover_image": "it_found_us_cover.jpg"
+    }
+]
