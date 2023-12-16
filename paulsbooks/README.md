@@ -1,3 +1,11 @@
+# React Bookstore Interface With Components
+
+This is a basic template for a bookstore that dynamically generates information about books based on the JSON file. The JSON file imitates a database.
+
+In the future, I will be using NodeJS to link this to an actual database.
+
+In this current state, the landing page, book details pages, sign in page, and orders pages are set up.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
